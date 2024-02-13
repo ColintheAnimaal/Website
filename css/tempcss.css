@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/farmbackpic.jpg);
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    background-size: cover;
+    height: 100%;
+    /*padding: 20px;*/
+    margin: 10px;
+    /*font-size: 56px;*/
+    /*text-align: center;*/
+}
+
+header {
+    /*background-color: rgb(14, 119, 42);*/
+    background-image: url(../images/sunlogo.png);
+    background-repeat: no-repeat;
+    background-size: 270px;
+    font-size: 81px;
+    text-align: left;
+    color: rgb(181, 142, 27);
+    padding: 0px;
+    padding-left: 75px;
+    display: flex;
+}
+
+h2{
+    padding-top: 36px;
+}
+
+nav {
+    background-color: rgb(14, 119, 42);
+    border-radius: 50px;
+    padding-top: 10px;
+    height: 60px
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 33px;
+    color: black;
+}
+
+.sunlogo {
+    width: 320px;
+    padding: 20px;
+    padding-bottom: 12px;
+}
+
+.big-sun {
+    background-image: url(../images/sunlogo.png);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+footer {
+    text-align: center;
+    align-items: center;
+    font-size: 33px;
+}
+
+main {
+    /*background-color: yellowgreen;*/
+    padding: 40px;
+    gap: 0px;
+}
+
+.top-section {
+    /*background-color: yellow;*/
+    padding: 0px;
+}
+
+.top-content {
+    /*background-color: azure;*/
+    /*padding: 20px;*/
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.intro-main-text {
+    background-color: rgb(181, 197, 157);
+    width: 600px;
+    padding: 50px;
+    text-align: center;
+    /*gap: 20px;*/
+}
+
+.intro-article {
+    background-color: chocolate;
+    padding: 10px;
+}
+
+.feature-boxes {
+    /*background-color: cornflowerblue;*/
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 66%;
+}
+
+.feature-box-leftpic {
+    background-color: rgb(181, 197, 157);
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.feature-box-rightpic {
+    background-color: rgb(181, 197, 157);
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.pic-right {
+    justify-content: stretch;
+    width: 100%; /*what is going on here?*/
+}
+
+.feabox-pic {
+    background-color: chocolate;
+    font-size: 12px;
+    padding-bottom: 0px;
+    width: 225px;
+    height: 200px;
+}
+
+.feabox-text {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 75%;
+}
+
+.cafe-main-text {
+    background-color: rgb(181, 197, 157);
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    /*gap: 20px;*/
+}
+
+.cafe-article {
+    background-color: chocolate;
+    padding: 10px;
+}
+
+.open-times {
+    background-color: cornflowerblue;
+    width: 450px;
+    height: 250px;
+}
+.bottom-section {
+    /*background-color: pink;*/
+    padding-top: 40px;
+}
+
+.bottom-content {
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: end;
+    padding: 0px;
+    gap: 800px;
+}
+
+.about-us-map {
+    background-color: greenyellow;
+    width: 30%;
+    padding: 20px;
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.map-header {
+    font-size: 24px;
+    padding-left: 50px;
+    padding: 10px;
+}
+
+.map {
+    background: chocolate;
+    font-size: 157px;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-details {
+    font-size: 24px;
+    padding: 50px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.mystery-box {
+    background-color: crimson;
+    padding: 20px;
+}
+
+.mystery-contents {
+    background-color: darkorange;
+    padding: 20px;
+    text-align: center;
+}
+
+.location-block {
+    background-color: aqua;
+    /*height: 200px;*/
+    padding: 20px;
+}
+
+.location-box {
+    background-color: yellowgreen;
+    /*height: 100px;*/
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.map {
+    height: 200px;
+    width: 300px;
+}

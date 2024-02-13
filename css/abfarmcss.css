@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/farmbackpic.jpg);
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+    background-size: cover;
+    height: 1280px;
+    /*padding: 20px;*/
+    margin-top: 10px;
+    font-size: 56px;
+    text-align: center;
+}
+
+header {
+    /*background-color: rgb(14, 119, 42);*/
+    background-image: url(../images/sunlogo.png);
+    background-repeat: no-repeat;
+    background-size: 270px;
+    font-size: 81px;
+    text-align: left;
+    color: rgb(181, 142, 27);
+    padding: 0px;
+    padding-left: 75px;
+    display: flex;
+}
+
+h2{
+    padding-top: 36px;
+}
+
+nav {
+    background-color: rgb(14, 119, 42);
+    padding-top: 0px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 33px;
+    color: black;
+}
+
+.sunlogo {
+    width: 320px;
+    padding: 20px;
+    padding-bottom: 12px;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    font-size: 33px;
+}
+
+.welcome-button {
+    /*font-size: 56px;*/
+    text-align: center;
+}
+
+main {
+    /*display: flex;*/
+    align-items: center;
+    padding: 24px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(127, 127, 127);*/
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    /*background-color: rgb(142, 142, 142);*/
+    padding: 0px;
+    border-width: 10px;
+    border-color: red;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    background-color: rgb(142, 157, 119);
+    padding: 16px;
+    border-width: 10px;
+    border-color: red;
+}
+
+.card-content {
+    padding: 16px;
+    font-size: 19px;
+    text-align: justify;
+    border-width: 10px;
+    border-color: red;
+}
+
+.card-image {
+    padding-top: 16px;
+}
+
+h3, h4 {
+    text-align: center;
+    padding: 12px;
+}
+
+.imagewrap {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 0px;
+    padding: 0px;
+}
+
+.wrap-images {
+    display: flex;
+    justify-content: left;
+    gap: 0px;
+    /*background-color: rgb(142, 142, 142);*/
+    padding: 0px;   
+}
+
+.wrap-pic {
+    padding: 0px;
+    gap: 0px;
+}
